@@ -23,7 +23,7 @@
 }
 
 #cart-container {
-    display: none;
+    display: block;
     flex-direction: column;
     align-items: center;
     width: 25vw;
@@ -148,7 +148,9 @@ h2 {
     margin: 20px 0;
     position: relative;
 }
-
+#receipt-container.active {
+  display: block;
+}
 .receipt-product {
     display: flex;
     flex-direction: column;
